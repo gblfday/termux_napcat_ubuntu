@@ -8,8 +8,8 @@
 
 ##开启bot
 首先先开启两个会话窗口来启动nb和nc
-- screen -S nb   ##这里先开一个窗口然后启动nb：nb run --reload 然后退出当前会话：ctrl+a再输入D 回到住窗口。
-- screen -S nc   ##这里再启动一个窗口来启动nc：./run.sh 然后输入各种信息，再输入ctrl+a再输入D，回到住窗口。
+- screen -S nb   ##这里先开一个窗口然后启动nb：nb run --reload 然后退出当前会话：ctrl+a再输入D 回到主窗口。
+- screen -S nc   ##这里再启动一个窗口来启动nc：./run.sh 然后输入各种信息，再输入ctrl+a再输入D，回到主窗口。
 - 如何切换会话窗口：↓
 - screen -ls   ##这里是显示你现在所有会话窗口！
 - screen -r xx   ##这里是切换到已有的会话窗口如：screen -r nb就进入到我们已经刚刚创建的窗口！
